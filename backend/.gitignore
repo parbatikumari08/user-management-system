@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+package-lock.json
+# Note: Remove the line above if you want to commit package-lock.json
+# Actually, COMMENT OUT the above line - we DO want to commit package-lock.json
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Coverage
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Build
+dist/
+build/
+
+# Misc
+*.swp
+*.swo
+*~
